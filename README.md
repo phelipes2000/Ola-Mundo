@@ -1,3 +1,3 @@
 # Olá, Mundo!
  Primeiro repositório.
- Colocando as resoluções de alguns exercícios de programação.
+ Postando minhas resoluções de exercícios de programação.
