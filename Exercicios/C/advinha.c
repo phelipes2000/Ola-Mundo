@@ -5,18 +5,21 @@ srand(time(NULL));
 numeroGerado = rand();
 numeroGerado = numeroGerado % 100;
 while(palpite!=-1){
-        printf("digite um palpite [0 a 99], se desistir digite [-1]");
+        printf("Palpites validos [0 a 99]\nSe desistir digite [-1]\nDigite um palpite: ");
     scanf("%d",&palpite);
     if (palpite==numeroGerado){
-        printf("voce ganhou");
+        printf("\nVoce ganhou ! ! !");
         break;
     }
-    else{
-        printf("tente novamente");
+
+    else if(palpite==-1){
+        printf("\nVoce escolheu encerrar o programa.")
+        printf("\nO numero era %d\n",numeroGerado);
     }
-    if(palpite==-1){
-        printf("o nmr era %d",numeroGerado);
+    else if(palpite!=numeroGerado){
+        printf("\nTente novamente . . .\n\n");
     }
 
 }
 }
+//~~phelipes2000
