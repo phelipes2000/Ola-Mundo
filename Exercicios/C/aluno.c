@@ -20,3 +20,4 @@ float nota;
     printf("Faltas: %d \n",falta);
     printf("Nota: %.2f \n",nota);
 }
+//~~phelipes2000
