@@ -6,4 +6,4 @@
  * Exercícios propostos pelos professores de programação.
     * Suas versões em outras linguagens.
  * Exercícios Extracurriculares.
- 
+ * Materiais postados pelos professores.
