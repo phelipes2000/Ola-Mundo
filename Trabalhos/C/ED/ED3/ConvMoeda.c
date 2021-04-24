@@ -7,7 +7,7 @@ printf(" Digite o valor em reais: ");
 scanf("%f",&din);
 //------MENU---------
 /*Optei por colocar as abreviacoes que sao bastante usadas
-no mercado de forex ou op��es binarias e ao lado o nome da moeda*/
+no mercado de forex ou opcoes binarias e ao lado o nome da moeda*/
 printf("  1 - USD (Dolar americano)   - R$5,50 \n");
 printf("  2 - JPY (Iene japones)      - R$0,052 \n");
 printf("  3 - EUR (Euro)              - R$6,71 \n");
@@ -15,7 +15,7 @@ printf("  4 - GBP (Libra Esterlina)   - R$7,73 \n");
 printf("  5 - AUD (Dolar australiano) - R$4,35 \n");
 printf(" Escolha o tipo de moeda que deseja converter: ");
 scanf("%d",&escolha);
-/*Todas as moedas estar�o na cota��o do dia 25/02/2021
+/*Todas as moedas estarao na cotacao do dia 25/02/2021
 por volta das 15:00 horas*/
 switch(escolha){
 case 1:
